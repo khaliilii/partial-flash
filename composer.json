@@ -1,21 +1,26 @@
 {
-    "name": "khaliilii/partial-flash",
+    "name": "khalili/partial-flash",
     "description": "this package for show message use sweetAlert and session by use Helper function",
     "type": "library",
     "license": "MIT",
+  "autoload":{
+    "psr-4": {
+      "Khaliilii\\Raygansms\\":"src"
+    }
+  },
     "authors": [
         {
             "name": "mohsen khalili",
             "email": "khalili.mohsen@rocketmail.com"
         }
     ],
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Khaliilii\\PartialFlash\\Providers\\PartialFlashProvider\\"
-      ]
-    }
-  },
+	"extra": {
+	    "laravel": {
+		"providers": [
+		    "Khaliilii\\PartialFlash\\Provider\\PartialFlashProvider"
+		]
+	    }
+	},
     "minimum-stability": "dev",
-    "require": {}
+
 }
