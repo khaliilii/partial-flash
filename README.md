@@ -14,7 +14,9 @@ php artisan vendor:publish --tag=MyTag --force        ////publish view only this
 selet my package for publish files
 4)
 add this css and js on view file or layout file
+
     <script src="{{ asset('js/sweetalert.min.js') }}" ></script>
+    
     <link href="{{ asset('css/sweetalert.min.css') }}" rel="stylesheet">
 5)
 include partial view blad  on view file or layout file on end page
