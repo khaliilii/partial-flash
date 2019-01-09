@@ -12,7 +12,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Khaliilii\\PartialFlash\\Providers\\PartialFlashProvider"
+        "Khaliilii\\PartialFlash\\Providers\\PartialFlashProvider\\"
       ]
     }
   },
