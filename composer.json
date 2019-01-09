@@ -2,12 +2,13 @@
     "name": "khalili/partial-flash",
     "description": "this package for show message use sweetAlert and session by use Helper function",
     "type": "library",
+    "autoload":{
+      "psr-4": {
+        "Khaliilii\\PartialFlash\\":"src"
+         }
+    },
     "license": "MIT",
-  "autoload":{
-    "psr-4": {
-      "Khaliilii\\Raygansms\\":"src"
-    }
-  },
+
     "authors": [
         {
             "name": "mohsen khalili",
@@ -21,6 +22,6 @@
 		]
 	    }
 	},
-    "minimum-stability": "dev",
+    "minimum-stability": "dev"
 
 }
