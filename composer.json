@@ -14,9 +14,6 @@
       "providers": [
         "Khaliilii\\PartialFlash\\Providers\\PartialFlashProvider"
       ],
-       "aliases": {
-        ""
-      }
     }
     }
   },
