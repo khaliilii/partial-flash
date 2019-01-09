@@ -1,5 +1,5 @@
 {
-    "name": "khalili/partial-flash",
+    "name": "khaliilii/partial-flash",
     "description": "this package for show message use sweetAlert and session by use Helper function",
     "type": "library",
     "autoload":{
