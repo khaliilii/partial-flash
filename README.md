@@ -1,5 +1,5 @@
 # partial-flash
-laravel partial-flash us sweet alert 
+laravel partial-flash use sweet alert 
 
 
 1)
