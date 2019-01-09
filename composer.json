@@ -13,8 +13,7 @@
     "laravel": {
       "providers": [
         "Khaliilii\\PartialFlash\\Providers\\PartialFlashProvider"
-      ],
-    }
+      ]
     }
   },
     "minimum-stability": "dev",
